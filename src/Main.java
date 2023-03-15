@@ -38,6 +38,8 @@ public class Main {
 
             int linhasAfetadas = stmt.executeUpdate();
 
+            System.out.println("Sucesso");
+
             ResultSet resultSet = stmt.executeQuery(CONSULTA);
 
             while (resultSet.next()){
