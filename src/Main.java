@@ -38,7 +38,7 @@ public class Main {
 
             int linhasAfetadas = stmt.executeUpdate();
 
-            System.out.println("Sucesso");
+            System.out.println("Sucesso na excecução");
 
             ResultSet resultSet = stmt.executeQuery(CONSULTA);
 
