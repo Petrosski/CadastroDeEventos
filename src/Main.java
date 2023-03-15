@@ -37,7 +37,6 @@ public class Main {
             stmt.setString(4,qtdparticipantes);
 
             int linhasAfetadas = stmt.executeUpdate();
-            System.out.println("Dados inseridos");
 
             ResultSet resultSet = stmt.executeQuery(CONSULTA);
 
